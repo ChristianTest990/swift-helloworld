@@ -30,7 +30,7 @@ services: docker
 before_install:
   - git clone https://github.com/IBM-Swift/Package-Builder.git
   - cd Package-Builder
-  - git checkout issue.code_cleanup
+  - git checkout issue.reenable_special_build
   - cd ..
 
 script:
